@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@font-face {
+ font-family: "Quicksand";
+ src: url("../fonts/Quicksand/Quicksand-Regular.ttf");
+}
+
+@font-face {
+ font-family: "Quicksand";
+ src: url("../fonts/Quicksand/Quicksand-Bold.ttf");
+ font-weight: bold;
+}
+
+body {
+	background-color: rgba(248, 244, 255, 1);
+}
+
+.header {
+	height: 20%;
+	padding: 10px;
+	display: table;
+	font-family: "Quicksand";
+	margin: auto;
+}
+
+.info {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.name {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#position {
+	font-weight: bold;
+}
+
+
+.other-info {
+	font-size: 20px;
+}
+
+.photo {
+	padding: 10px;
+	display: table-cell;
+}
+
+.image {
+	height: 200;
+	border-radius: 50px;
+}
