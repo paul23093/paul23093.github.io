@@ -1,0 +1,6 @@
+Python
+SQL
+Presto
+Vertica
+Tableau
+Power BI

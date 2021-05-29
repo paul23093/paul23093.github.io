@@ -12,11 +12,19 @@
 }
 
 body {
-	background-color: rgba(248, 244, 255, 1);
+	background-color: rgba(250, 248, 227, 1);
+	margin: auto;
 }
 
 .header {
 	height: 20%;
+	width: 100%;
+	display: table;
+	font-family: "Quicksand";
+	margin: 50px auto;
+}
+
+.general {
 	padding: 10px;
 	display: table;
 	font-family: "Quicksand";
@@ -34,21 +42,160 @@ body {
 	font-weight: bold;
 }
 
-#position {
+.position {
+	font-size: 20px;
 	font-weight: bold;
 }
 
-
 .other-info {
-	font-size: 20px;
+	font-size: 15px;
+	padding: 3px 0;
 }
 
 .photo {
 	padding: 10px;
-	display: table-cell;
 }
 
 .image {
-	height: 200;
+	height: 200px;
 	border-radius: 50px;
+}
+
+.icon {
+	height: 25px;
+	padding: 0 5 0 0;
+}
+
+.experience {
+	margin: auto;
+	padding: 20px;
+	display: table;
+	font-family: "Quicksand";
+}
+
+.company-block {
+	padding: 20px 0;
+}
+
+.company {
+	display: table;
+}
+
+.company-icon {
+	margin: 20px;
+}
+
+.title {
+	display: table-cell;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.description {
+	display: table-cell;
+	vertical-align: middle;
+	max-width: 600px;
+}
+
+svg#nike {
+	width: 120px;
+	/*height: 60;*/
+	fill: rgb(17, 17, 17);
+}
+
+svg#ozon {
+	width: 120px;
+	/*height: 60;*/
+	fill: rgb(0, 91, 255);
+}
+
+svg#cian {
+	width: 120px;
+	/*height: 60;*/
+	fill: rgb(0, 91, 255);
+}
+
+.skills-header {
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+	display: table-row;
+	font-family: "Quicksand";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.block-header {
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+	font-family: "Quicksand";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.skills {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 30px;
+	user-select: none;
+}
+
+.skills-content {
+	width: 300px;
+	margin: auto;
+	padding: 10px;
+	float: left;
+	font-family: "Quicksand";
+	font-weight: bold;
+}
+
+.skills-item {
+	display: inline-block;
+	font-size: 12px;
+	background-color: rgba(189, 134, 240, 1);
+	border-radius: 50px;
+	padding: 12px;
+	margin: 2px 1px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.category {
+	padding: 5px 0;
+	font-weight: bold;
+}
+
+.achivements {
+	list-style-type: '- ';
+}
+
+.achive-element {
+	margin: 10px 0;
+}
+
+.company-icon-block {
+	position: relative;
+	cursor: pointer;
+}
+
+.company-icon-block img {
+	display:  block;
+}
+
+.company-icon-block .overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	transition: .3s;
+	padding: 10px;
+}
+
+.company-icon-block .overlay .icon{
+	height:  12px;
+}
+
+.company-icon-block:hover .overlay {
+	opacity: .4;
 }
