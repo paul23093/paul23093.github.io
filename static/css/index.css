@@ -142,7 +142,7 @@ svg#cian {
 }
 
 .skills-content {
-	width: 300px;
+	width: 400px;
 	margin: auto;
 	padding: 10px;
 	float: left;
@@ -164,6 +164,14 @@ svg#cian {
 .category {
 	padding: 15px 0 5px 0;
 	font-weight: bold;
+}
+
+.tech:before {
+	content: "Tech. stack";
+}
+
+.tasks:before {
+	content: "Tasks & Achivements";
 }
 
 .achivements {
