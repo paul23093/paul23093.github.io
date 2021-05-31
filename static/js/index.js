@@ -39,19 +39,23 @@ function getJobs() {
 				company_block.appendChild(company);
 				
 				var company_icon_block = document.createElement('div');
-				company_icon_block.setAttribute('class', 'company-icon-block', 'onclick', 'window.open("https://exness.com")');
+				company_icon_block.setAttribute('class', 'company-icon-block');
+				company_icon_block.setAttribute('onclick', 'window.open("' + job['company_link'] + '")');
 				company.appendChild(company_icon_block);
 
 				var company_icon = document.createElement('img');
-				company_icon.setAttribute('class', 'company-icon', 'id', job['company_id'], 'src', job['company_logo']);
+				company_icon.setAttribute('class', 'company-icon');
+				company_icon.setAttribute('id', job['company_id']);
+				company_icon.setAttribute('src', job['company_logo']);
 				company_icon_block.appendChild(company_icon);
 
 				var overlay = document.createElement('div');
 				overlay.setAttribute('class', 'overlay');
-				company.appendChild(overlay);
+				company_icon_block.appendChild(overlay);
 
 				var icon_external = document.createElement('img');
-				icon_external.setAttribute('class', 'icon', 'src', "static/icons/external.svg");
+				icon_external.setAttribute('class', 'icon');
+				icon_external.setAttribute('src', "static/icons/external.svg");
 				overlay.appendChild(icon_external);
 				
 				var company_description = document.createElement('div');
