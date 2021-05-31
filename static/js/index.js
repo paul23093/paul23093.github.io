@@ -8,7 +8,23 @@ function getAge() {
 
 function getSkills() {
 	// fetch("static/data/content.json").then((response) => {
-	fetch("https://raw.githubusercontent.com/paul23093/profile/master/static/data/content.json").then((response) => {
+	fetch("https://raw.githubusercontent.com/paul23093/profile/master/static/data/skills.json").then((response) => {
+		response.json().then((data) => {
+			const skills = data['skills'];
+			const ul = document.getElementsByClassName('skills-content')[0];
+			for(i=0; i<skills.length; i++) {
+				var li = document.createElement('li');
+				li.setAttribute('class', 'skills-item');
+				li.innerHTML = skills[i];
+				ul.appendChild(li);
+			}
+		});
+	});
+}
+
+function getJobs() {
+	// fetch("static/data/content.json").then((response) => {
+	fetch("https://raw.githubusercontent.com/paul23093/profile/master/static/data/jobs.json").then((response) => {
 		response.json().then((data) => {
 			const skills = data['skills'];
 			const ul = document.getElementsByClassName('skills-content')[0];

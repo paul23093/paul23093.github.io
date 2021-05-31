@@ -1,0 +1,18 @@
+{"jobs": [
+	{
+		"company_name": "Exness",
+		"company_desc": "Trading platform",
+		"company_logo": "",
+		"company_logo_format": "",
+		"job_title": "Reporting & Visualization Analyst",
+		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "PowerBI", "Grafana", "Flask", "React"],
+		"job_achivements": [
+			"Developed report and specific tool to provide HR colleagues transparency and flexibility to hire and track employee's growth",
+			"Developed internal API",
+			"Developed python package for department work optimization",
+			"Developed internal web service to provide managers more flexibility to get necessary data for push/sms/email notifications mailing",
+			"Other reporting automation",
+			"Other dataflow optimization"
+		]
+	}
+]}
