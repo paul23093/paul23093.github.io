@@ -16,7 +16,7 @@
 		"company_id": "cian",
 		"company_link": "https://cian.ru",
 		"job_title": "BI Analyst",
-		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "PowerBI", "Grafana", "Flask", "React"],
+		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "Power BI", "Grafana", "Flask", "React"],
 		"job_achivements": [
 			"Developed report and specific tool to provide HR colleagues transparency and flexibility to hire and track employee's growth",
 			"Developed internal API",
