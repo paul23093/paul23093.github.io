@@ -107,6 +107,7 @@ hr {
 }
 
 .company-icon {
+	width: 120px;
 	margin: 20px;
 }
 
@@ -123,32 +124,7 @@ hr {
 }
 
 .company-info:before {
-
 	content: "in ";
-}
-
-#nike {
-	width: 120px;
-	/*height: 60;*/
-	fill: rgb(17, 17, 17);
-}
-
-#ozon {
-	width: 120px;
-	/*height: 60;*/
-	fill: rgb(0, 91, 255);
-}
-
-#cian {
-	width: 120px;
-	/*height: 60;*/
-	fill: rgb(0, 91, 255);
-}
-
-#exness {
-	width: 120px;
-	/*height: 60;*/
-	/*fill: rgb(0, 91, 255);*/
 }
 
 .skills-header {
