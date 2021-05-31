@@ -7,7 +7,8 @@ function getAge() {
 }
 
 function getSkills() {
-	fetch("static/data/content.json").then((response) => {
+	// fetch("static/data/content.json").then((response) => {
+	fetch("https://raw.githubusercontent.com/paul23093/profile/master/static/data/content.json").then((response) => {
 		response.json().then((data) => {
 			const skills = data['skills'];
 			const ul = document.getElementsByClassName('skills-content')[0];
