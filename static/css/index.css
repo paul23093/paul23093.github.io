@@ -145,6 +145,12 @@ svg#cian {
 	fill: rgb(0, 91, 255);
 }
 
+svg#exness {
+	width: 120px;
+	/*height: 60;*/
+	fill: rgb(0, 91, 255);
+}
+
 .skills-header {
 	margin: auto;
 	padding: 5px;
