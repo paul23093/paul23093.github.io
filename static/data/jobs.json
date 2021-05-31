@@ -5,15 +5,8 @@
 		"company_logo": "static/images/exness.svg",
 		"company_link": "https://exness.com",
 		"job_title": "Reporting & Visualization Analyst",
-		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "Power BI", "Grafana", "Flask", "React"],
-		"job_achivements": [
-			"Developed report and specific tool to provide HR colleagues transparency and flexibility to hire and track employee's growth",
-			"Developed internal API",
-			"Developed python package for department work optimization",
-			"Developed internal web service to provide managers more flexibility to get necessary data for push/sms/email notifications mailing",
-			"Other reporting automation",
-			"Other dataflow optimization"
-		]
+		"job_skills": [],
+		"job_achivements": []
 	},
 	{
 		"company_name": "Cian",
@@ -29,6 +22,36 @@
 			"Developed internal web service to provide managers more flexibility to get necessary data for push/sms/email notifications mailing",
 			"Other reporting automation",
 			"Other dataflow optimization"
+		]
+	},
+	{
+		"company_name": "Ozon",
+		"company_desc": "E-commerce marketplace",
+		"company_logo": "static/images/ozon.svg",
+		"company_link": "https://ozon.ru",
+		"job_title": "Business Analyst",
+		"job_skills": ["Python", "Vertica", "MS SQL", "Power BI", "Grafana"],
+		"job_achivements": [
+			"Demand and supply planning",
+			"Stock & Sales analysis",
+			"Price elasticity analysis",
+			"Data visualization"
+		]
+	},
+	{
+		"company_name": "Nike",
+		"company_desc": "Sporting goods",
+		"company_logo": "static/images/nike.svg",
+		"company_link": "https://nike.com",
+		"job_title": "Retail Analyst",
+		"job_skills": ["Python", "MS SQL", "Tableau", "Power BI"],
+		"job_achivements": [
+			"Reporting portal development",
+			"Development of a portal for training new employees",
+			"Business processes & reporting automation",
+			"Sales forecast modelling",
+			"Errors detecting tool development",
+			"Dataflow optimization"
 		]
 	}
 ]}
