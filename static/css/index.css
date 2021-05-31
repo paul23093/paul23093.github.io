@@ -127,25 +127,25 @@ hr {
 	content: "in ";
 }
 
-svg#nike {
+#nike {
 	width: 120px;
 	/*height: 60;*/
 	fill: rgb(17, 17, 17);
 }
 
-svg#ozon {
+#ozon {
 	width: 120px;
 	/*height: 60;*/
 	fill: rgb(0, 91, 255);
 }
 
-svg#cian {
+#cian {
 	width: 120px;
 	/*height: 60;*/
 	fill: rgb(0, 91, 255);
 }
 
-svg#exness {
+#exness {
 	width: 120px;
 	/*height: 60;*/
 	/*fill: rgb(0, 91, 255);*/

@@ -43,8 +43,16 @@ function getJobs() {
 				company.appendChild(company_icon_block);
 
 				var company_icon = document.createElement('img');
-				company_icon.setAttribute('class', 'company-icon', 'id', 'exness', 'src', job['company_logo']);
+				company_icon.setAttribute('class', 'company-icon', 'id', job['company_id'], 'src', job['company_logo']);
 				company_icon_block.appendChild(company_icon);
+
+				var overlay = document.createElement('div');
+				overlay.setAttribute('class', 'overlay');
+				company.appendChild(overlay);
+
+				var icon_external = document.createElement('img');
+				icon_external.setAttribute('class', 'icon', 'src', "static/icons/external.svg");
+				overlay.appendChild(icon_external);
 				
 				var company_description = document.createElement('div');
 				company_description.setAttribute('class', 'description');
