@@ -2,8 +2,7 @@
 	{
 		"company_name": "Exness",
 		"company_desc": "Trading platform",
-		"company_logo": "",
-		"company_logo_format": "",
+		"company_logo": "static/images/exness.svg",
 		"company_link": "https://exness.com",
 		"job_title": "Reporting & Visualization Analyst",
 		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "PowerBI", "Grafana", "Flask", "React"],
@@ -19,8 +18,7 @@
 	{
 		"company_name": "Cian",
 		"company_desc": "Realty rent",
-		"company_logo": "",
-		"company_logo_format": "",
+		"company_logo": "static/images/ozon.svg",
 		"company_link": "https://cian.ru",
 		"job_title": "BI Analyst",
 		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "PowerBI", "Grafana", "Flask", "React"],

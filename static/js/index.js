@@ -41,6 +41,10 @@ function getJobs() {
 				var company_icon_block = document.createElement('div');
 				company_icon_block.setAttribute('class', 'company-icon-block', 'onclick', 'window.open("https://exness.com")');
 				company.appendChild(company_icon_block);
+
+				var company_icon = document.createElement('img');
+				company_icon.setAttribute('class', 'company-icon', 'id', 'exness', 'src', job['company_logo']);
+				company_icon_block.appendChild(company_icon);
 				
 				var company_description = document.createElement('div');
 				company_description.setAttribute('class', 'description');
@@ -78,6 +82,7 @@ function getJobs() {
 					achive.innerHTML = achivement;
 					achivements.appendChild(achive);
 				}
+
 				if(i != jobs.length - 1) {
 					var hr = document.createElement('hr');
 					experience.appendChild(hr);
