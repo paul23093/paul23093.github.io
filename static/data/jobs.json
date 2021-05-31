@@ -6,7 +6,7 @@
 		"company_id": "exness",
 		"company_link": "https://exness.com",
 		"job_title": "Reporting & Visualization Analyst",
-		"job_skills": [],
+		"job_skills": ["Vertica", "Tableau", "Argo", "Grafana"],
 		"job_achivements": []
 	},
 	{
