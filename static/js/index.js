@@ -7,7 +7,7 @@ function getAge() {
 }
 
 function getSkills() {
-	fetch("static/data/skills.json").then((response) => {
+	fetch("static/data/content.json").then((response) => {
 		response.json().then((data) => {
 			const skills = data['skills'];
 			const ul = document.getElementsByClassName('skills-content')[0];
