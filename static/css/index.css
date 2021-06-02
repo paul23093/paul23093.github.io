@@ -123,6 +123,18 @@ hr {
 	max-width: 600px;
 }
 
+
+.job-dates {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.job-period {
+	padding-left: 30px;
+	display: inline-block;
+	font-style: italic;
+}
+
 .company-info:before {
 	content: "in ";
 }

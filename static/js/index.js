@@ -7,7 +7,7 @@ function getAge() {
 }
 
 function getSkills() {
-	fetch("https://raw.githubusercontent.com/paul23093/profile/master/static/data/skills.json").then((response) => {
+	fetch("static/data/skills.json").then((response) => {
 		response.json().then((data) => {
 			const skills = data['skills'];
 			const ul = document.getElementsByClassName('skills-content')[0];
@@ -21,8 +21,15 @@ function getSkills() {
 	});
 }
 
+function getPeriod(begin_date, end_date) {
+	var diffTime = Math.abs(end_date - begin_date);
+	var years = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365));
+	var months =  Math.floor(diffTime / (1000 * 60 * 60 * 24 * 30) - years * 12) + 1;
+	return (years > 0 ? years + " y " : "") + months + " m";
+}
+
 function getJobs() {
-	fetch("https://raw.githubusercontent.com/paul23093/profile/master/static/data/jobs.json").then((response) => {
+	fetch("static/data/jobs.json").then((response) => {
 		response.json().then((data) => {
 			const jobs = data['jobs'];
 			const experience = document.getElementsByClassName('experience')[0];
@@ -65,15 +72,33 @@ function getJobs() {
 				job_title.innerHTML = job['job_title'];
 				company_description.appendChild(job_title);
 
+				beginDate = new Date(job['job_begin_date']);
+				beginDateYear = beginDate.getFullYear();
+				beginDateMonth = beginDate.getMonth() + 1;
+				beginDateFormatted = beginDateYear + "-" + (beginDateMonth < 10 ? "0" + beginDateMonth : beginDateMonth);
+				endDate = job['job_end_date'] != "" ? new Date(job['job_end_date']) : new Date();
+				endDateYear = endDate.getFullYear();
+				endDateMonth = endDate.getMonth() + 1;
+				endDateFormatted = endDate != Date() ? endDateYear + "-" + (endDateMonth < 10 ? "0" + endDateMonth : endDateMonth) : "...";
+
+				var job_dates_block = document.createElement('div');
+				job_dates_block.setAttribute('class', 'job-dates-block');
+				company_description.appendChild(job_dates_block);
+
+				var job_dates = document.createElement('div');
+				job_dates.setAttribute('class', 'job-dates');
+				job_dates.innerHTML = beginDateFormatted + ' - ' + endDateFormatted;
+				job_dates_block.appendChild(job_dates);
+				
+				var job_period = document.createElement('div');
+				job_period.setAttribute('class', 'job-period');
+				job_period.innerHTML = getPeriod(beginDate, endDate);
+				job_dates_block.appendChild(job_period);
+
 				var company_info = document.createElement('div');
 				company_info.setAttribute('class', 'company-info');
 				company_info.innerHTML = job['company_name'] + ' - ' + job['company_desc'];
 				company_description.appendChild(company_info);
-
-				var job_dates = document.createElement('div');
-				job_dates.setAttribute('class', 'job-dates');
-				job_dates.innerHTML = job['job_begin_date'] + ' - ' + job['job_end_date'];
-				company_description.appendChild(job_dates);
 
 				var tech = document.createElement('div');
 				tech.setAttribute('class', 'category tech');
