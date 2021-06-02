@@ -7,7 +7,7 @@ function getAge() {
 }
 
 function getSkills() {
-	fetch("static/data/skills.json").then((response) => {
+	fetch("https://raw.githubusercontent.com/paul23093/profile/master/static/data/skills.json").then((response) => {
 		response.json().then((data) => {
 			const skills = data['skills'];
 			const ul = document.getElementsByClassName('skills-content')[0];
@@ -22,7 +22,7 @@ function getSkills() {
 }
 
 function getJobs() {
-	fetch("static/data/jobs.json").then((response) => {
+	fetch("https://raw.githubusercontent.com/paul23093/profile/master/static/data/jobs.json").then((response) => {
 		response.json().then((data) => {
 			const jobs = data['jobs'];
 			const experience = document.getElementsByClassName('experience')[0];
@@ -69,6 +69,11 @@ function getJobs() {
 				company_info.setAttribute('class', 'company-info');
 				company_info.innerHTML = job['company_name'] + ' - ' + job['company_desc'];
 				company_description.appendChild(company_info);
+
+				var job_dates = document.createElement('div');
+				job_dates.setAttribute('class', 'job-dates');
+				job_dates.innerHTML = job['job_begin_date'] + ' - ' + job['job_end_date'];
+				company_description.appendChild(job_dates);
 
 				var tech = document.createElement('div');
 				tech.setAttribute('class', 'category tech');

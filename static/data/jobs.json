@@ -6,6 +6,8 @@
 		"company_id": "exness",
 		"company_link": "https://exness.com",
 		"job_title": "Reporting & Visualization Analyst",
+		"job_begin_date": "2021-04-30",
+		"job_end_date": "",
 		"job_skills": ["Vertica", "Tableau", "Argo", "Grafana"],
 		"job_achivements": []
 	},
@@ -16,6 +18,8 @@
 		"company_id": "cian",
 		"company_link": "https://cian.ru",
 		"job_title": "BI Analyst",
+		"job_begin_date": "2020-03-26",
+		"job_end_date": "2021-04-21",
 		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "Power BI", "Grafana", "Flask", "React"],
 		"job_achivements": [
 			"Developed report and specific tool to provide HR colleagues transparency and flexibility to hire and track employee's growth",
@@ -33,6 +37,8 @@
 		"company_id": "ozon",
 		"company_link": "https://ozon.ru",
 		"job_title": "Business Analyst",
+		"job_begin_date": "2019-08-03",
+		"job_end_date": "2020-03-25",
 		"job_skills": ["Python", "Vertica", "MS SQL", "Power BI", "Grafana"],
 		"job_achivements": [
 			"Demand and supply planning",
@@ -48,6 +54,8 @@
 		"company_id": "nike",
 		"company_link": "https://nike.com",
 		"job_title": "Retail Analyst",
+		"job_begin_date": "2016-07-01",
+		"job_end_date": "2019-07-25",
 		"job_skills": ["Python", "MS SQL", "Tableau", "Power BI"],
 		"job_achivements": [
 			"Reporting portal development",
