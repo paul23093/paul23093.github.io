@@ -163,10 +163,11 @@ hr {
 	vertical-align: middle;
 	padding: 30px;
 	user-select: none;
+	margin: auto;
 }
 
 .skills-content {
-	width: 400px;
+	width: 30vw;
 	margin: auto;
 	padding: 10px;
 	float: left;
