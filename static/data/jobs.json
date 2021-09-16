@@ -1,7 +1,7 @@
 {"jobs": [
 	{
 		"company_name": "Exness",
-		"company_desc": "Trading platform",
+		"company_desc": "International fintech company",
 		"company_logo": "static/images/exness.svg",
 		"company_id": "exness",
 		"company_link": "https://exness.com",
@@ -13,7 +13,7 @@
 	},
 	{
 		"company_name": "Cian",
-		"company_desc": "Professional real estate sales and rental service",
+		"company_desc": "Professional real estate sales and rental service in Russia",
 		"company_logo": "static/images/cian.svg",
 		"company_id": "cian",
 		"company_link": "https://cian.ru",
@@ -32,7 +32,7 @@
 	},
 	{
 		"company_name": "Ozon",
-		"company_desc": "E-commerce marketplace",
+		"company_desc": "Russia's leading multi-category e-commerce platform",
 		"company_logo": "static/images/ozon.svg",
 		"company_id": "ozon",
 		"company_link": "https://ozon.ru",
@@ -49,7 +49,7 @@
 	},
 	{
 		"company_name": "Nike",
-		"company_desc": "Sporting goods",
+		"company_desc": "American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services",
 		"company_logo": "static/images/nike.svg",
 		"company_id": "nike",
 		"company_link": "https://nike.com",
