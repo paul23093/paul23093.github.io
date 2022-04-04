@@ -100,6 +100,11 @@ function getJobs() {
 				company_info.innerHTML = job['company_name'] + ' - ' + job['company_desc'];
 				company_description.appendChild(company_info);
 
+				var location = document.createElement('div');
+				location.setAttribute('class', 'location');
+				location.innerHTML = job['city'] + ', ' + job['country'];
+				company_info.appendChild(location);
+
 				var tech = document.createElement('div');
 				tech.setAttribute('class', 'category tech');
 				company_description.appendChild(tech);
