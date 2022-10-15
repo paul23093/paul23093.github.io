@@ -138,6 +138,7 @@ function getJobs() {
 }
 
 function getData() {
+	window.dispatchEvent(new Event('resize'));
 	getAge();
 	getSkills();
 	getJobs();
@@ -146,7 +147,7 @@ function getData() {
 window.addEventListener('resize', () => {
 	skills = document.getElementsByClassName('skills')[0];
 	skillsContent = document.getElementsByClassName('skills-content')[0]
-	if((document.documentElement.clientWidth < 900) || (document.documentElement.clientWidth/document.documentElement.clientHeight < 2)){
+	if((document.documentElement.clientWidth < 900) || (document.documentElement.clientWidth/document.documentElement.clientHeight < 1)){
 		skills.style.display = "table";
 		skills.style.textAlign = "center";
 		skillsContent.style.width = "70vw";
