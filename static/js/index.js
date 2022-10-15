@@ -146,7 +146,7 @@ function getData() {
 window.addEventListener('resize', () => {
 	skills = document.getElementsByClassName('skills')[0];
 	skillsContent = document.getElementsByClassName('skills-content')[0]
-	if(document.documentElement.clientWidth < 900) {
+	if((document.documentElement.clientWidth < 900) || (document.documentElement.clientWidth/document.documentElement.clientHeight < 0.8)){
 		skills.style.display = "table";
 		skills.style.textAlign = "center";
 		skillsContent.style.width = "70vw";
