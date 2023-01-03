@@ -7,10 +7,24 @@
 		"country": "Cyprus",
 		"city": "Limassol",
 		"company_link": "https://exness.com",
+		"job_title": "Reporting Automation Engineer",
+		"job_begin_date": "2023-01-01",
+		"job_end_date": "",
+		"job_skills": ["Python", "Vertica", "Tableau", "Metabase", "Argo", "Grafana"],
+		"job_achivements": []
+	},
+	{
+		"company_name": "Exness",
+		"company_desc": "International fintech company",
+		"company_logo": "static/images/exness.svg",
+		"company_id": "exness",
+		"country": "Cyprus",
+		"city": "Limassol",
+		"company_link": "https://exness.com",
 		"job_title": "Reporting & Visualization Analyst",
 		"job_begin_date": "2021-04-30",
-		"job_end_date": "",
-		"job_skills": ["Python", "Vertica", "Tableau", "Argo", "Grafana"],
+		"job_end_date": "2022-12-31",
+		"job_skills": ["Python", "Vertica", "Tableau", "Metabase", "Argo", "Grafana"],
 		"job_achivements": []
 	},
 	{
