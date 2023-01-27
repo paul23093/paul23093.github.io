@@ -25,7 +25,13 @@
 		"job_begin_date": "2021-04-30",
 		"job_end_date": "2022-12-31",
 		"job_skills": ["Python", "Vertica", "Tableau", "Metabase", "Argo", "Grafana"],
-		"job_achievements": []
+		"job_achievements": [
+			"Developed a system of dashboards with 15 separate panels for strategic plans and goals, convenient for managing and supporting, with one entry point",
+			"Developed a set of dashboards, which allow users to calculate their quarterly bonus based on their KPI tracking",
+			"Developed a service which automate license managing process (granting and revoking)",
+			"Developed a Slack bot for convenient tracking process",
+			"Developed a MVP of user-friendly self service (based on Slack) for metrics notification in direct messages"
+		]
 	},
 	{
 		"company_name": "Cian",
