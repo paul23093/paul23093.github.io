@@ -117,15 +117,15 @@ function getJobs() {
 				tasks.setAttribute('class', 'category tasks');
 				company_description.appendChild(tasks);
 
-				var achivements = document.createElement('ul');
-				achivements.setAttribute('class', 'achivements');
-				company_description.appendChild(achivements);
+				var achievements = document.createElement('ul');
+				achievements.setAttribute('class', 'achievements');
+				company_description.appendChild(achievements);
 
-				for(achivement of job['job_achivements']) {
-					var achive = document.createElement('li');
-					achive.setAttribute('class', 'achive-element');
-					achive.innerHTML = achivement;
-					achivements.appendChild(achive);
+				for(achievement of job['job_achievements']) {
+					var achieve = document.createElement('li');
+					achieve.setAttribute('class', 'achieve-element');
+					achieve.innerHTML = achievement;
+					achievements.appendChild(achieve);
 				}
 
 				if(i != jobs.length - 1) {

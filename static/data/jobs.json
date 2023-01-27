@@ -11,7 +11,7 @@
 		"job_begin_date": "2023-01-01",
 		"job_end_date": "",
 		"job_skills": ["Python", "Vertica", "Tableau", "Metabase", "Argo", "Grafana"],
-		"job_achivements": []
+		"job_achievements": []
 	},
 	{
 		"company_name": "Exness",
@@ -25,7 +25,7 @@
 		"job_begin_date": "2021-04-30",
 		"job_end_date": "2022-12-31",
 		"job_skills": ["Python", "Vertica", "Tableau", "Metabase", "Argo", "Grafana"],
-		"job_achivements": []
+		"job_achievements": []
 	},
 	{
 		"company_name": "Cian",
@@ -39,7 +39,7 @@
 		"job_begin_date": "2020-03-26",
 		"job_end_date": "2021-04-21",
 		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "Power BI", "Grafana", "Flask", "React"],
-		"job_achivements": [
+		"job_achievements": [
 			"Developed report and specific tool to provide HR colleagues transparency and flexibility to hire and track employee's growth",
 			"Developed internal API",
 			"Developed python package for department work optimization",
@@ -60,7 +60,7 @@
 		"job_begin_date": "2019-08-03",
 		"job_end_date": "2020-03-25",
 		"job_skills": ["Python", "Vertica", "MS SQL", "Power BI", "Grafana"],
-		"job_achivements": [
+		"job_achievements": [
 			"Demand and supply planning",
 			"Stock & Sales analysis",
 			"Price elasticity analysis",
@@ -79,7 +79,7 @@
 		"job_begin_date": "2016-07-01",
 		"job_end_date": "2019-07-25",
 		"job_skills": ["Python", "MS SQL", "Tableau", "Power BI"],
-		"job_achivements": [
+		"job_achievements": [
 			"Reporting portal development",
 			"Development of a portal for training new employees",
 			"Business processes & reporting automation",
