@@ -70,6 +70,7 @@ hr {
 .position {
 	font-size: 20px;
 	font-weight: bold;
+	margin-bottom: 10px;
 	color: rgba(0, 0, 0, 0.3);
 }
 
@@ -79,9 +80,10 @@ hr {
 
 .other-info {
 	font-size: 15px;
-	padding: 3px 0;
+	padding: 4px 0;
 	display: flex;
     align-items: center;
+	justify-content: left;
 }
 
 .photo {
@@ -95,7 +97,8 @@ hr {
 
 .icon {
 	height: 25px;
-	margin-right: 3px;
+	margin-right: 10px;
+	color: rgba(120, 120, 120);
 }
 
 .experience {
