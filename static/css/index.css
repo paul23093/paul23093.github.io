@@ -79,9 +79,11 @@ hr {
 }
 
 .other-info {
+	height: 25px;
 	font-size: 15px;
 	padding: 4px 0;
 	display: flex;
+	flex-direction: row;
     align-items: center;
 	justify-content: left;
 }
@@ -96,9 +98,22 @@ hr {
 }
 
 .icon {
+	color: rgba(120, 120, 120);
+	user-select: none;
+}
+
+.left {
 	height: 25px;
 	margin-right: 10px;
-	color: rgba(120, 120, 120);
+}
+
+.right {
+	/*height: 10px;*/
+	margin-left: 15px;
+	cursor: pointer;
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0s;
 }
 
 .experience {

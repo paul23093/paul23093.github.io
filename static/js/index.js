@@ -21,6 +21,21 @@ function getSkills() {
 	});
 }
 
+function copyToClipboard(el) {
+	let copyText = el.previousElementSibling.textContent;
+	navigator.clipboard.writeText(copyText);
+	el.style.transitionDuration = "0s";
+	el.textContent = "done";
+	setTimeout(() => {
+		el.style.transitionDuration = "0.3s";
+		el.style.opacity = "0";
+		setTimeout(() => {
+			el.textContent = "content_copy";
+			el.style.opacity = "1";
+		}, 300);
+	}, 3000);
+}
+
 function getPeriod(begin_date, end_date) {
 	var diffTime = Math.abs(end_date - begin_date);
 	var years = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365));
