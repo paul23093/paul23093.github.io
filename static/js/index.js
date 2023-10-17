@@ -1,8 +1,10 @@
 function getAge() {
 	const currentDate = new Date();
 	const birthDate = new Date('1993-09-23');
-	const diffTime = Math.abs(currentDate - birthDate);
-	const currentAge = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365)); 
+	const diffYears = currentDate.getFullYear() - birthDate.getFullYear() - 1;
+	const diffMonths = Math.sign(Math.sign(currentDate.getMonth() - birthDate.getMonth()) - 1) + 1;
+	const diffDays = Math.sign(Math.sign(currentDate.getDate() - birthDate.getDate()) + 1);
+	const currentAge = diffYears + diffMonths + diffDays;
 	document.getElementById('birthday').getElementsByTagName('span')[1].innerHTML += currentAge + ' y.o.';
 }
 
