@@ -161,16 +161,16 @@ function getData() {
 	getJobs();
 }
 
-window.addEventListener('resize', () => {
-	skills = document.getElementsByClassName('skills')[0];
-	skillsContent = document.getElementsByClassName('skills-content')[0]
-	if((document.documentElement.clientWidth < 900) || (document.documentElement.clientWidth/document.documentElement.clientHeight < 1)){
-		skills.style.display = "table";
-		skills.style.textAlign = "center";
-		skillsContent.style.width = "70vw";
-	} else {
-		skills.style.display = "table-cell";
-		skills.style.textAlign = "left";
-		skillsContent.style.width = "30vw";
-	}
-});
+// window.addEventListener('resize', () => {
+// 	skills = document.getElementsByClassName('skills')[0];
+// 	skillsContent = document.getElementsByClassName('skills-content')[0]
+// 	if((document.documentElement.clientWidth < 900) || (document.documentElement.clientWidth/document.documentElement.clientHeight < 1)){
+// 		skills.style.display = "table";
+// 		skills.style.textAlign = "center";
+// 		skillsContent.style.width = "70vw";
+// 	} else {
+// 		skills.style.display = "table-cell";
+// 		skills.style.textAlign = "left";
+// 		skillsContent.style.width = "30vw";
+// 	}
+// });
