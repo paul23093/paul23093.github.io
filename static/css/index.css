@@ -231,6 +231,7 @@ hr {
 .skills-content {
 	margin: auto;
 	padding: 10px;
+	width: 70vw;
 	text-align: center;
 	font-family: "Quicksand";
 	font-weight: bold;
