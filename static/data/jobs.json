@@ -44,7 +44,7 @@
 		"job_title": "BI Analyst",
 		"job_begin_date": "2020-03-26",
 		"job_end_date": "2021-04-21",
-		"job_skills": ["Python", "Hadoop", "Hive", "Trino (ex. PrestoSQL)", "Tableau", "Power BI", "Grafana", "Flask", "React"],
+		"job_skills": ["Python", "Hadoop", "Hive", "Trino", "Tableau", "Power BI", "Grafana", "Flask", "React"],
 		"job_achievements": [
 			"Developed report and specific tool to provide HR colleagues transparency and flexibility to hire and track employee's growth",
 			"Developed internal API",
