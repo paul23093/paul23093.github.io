@@ -58,7 +58,7 @@ hr {
 .general {
 	padding: 10px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	font-family: "Quicksand";
 	margin: auto;
@@ -111,17 +111,10 @@ hr {
 }
 
 .image {
-	width: 50%;
 	display: flex;
 	margin: auto;
+	max-height: 200px;
 	border-radius: 20px;
-}
-
-@media (min-width: 1000px) {
-	.image {
-		width: 100%;
-		height: 200px;
-	}
 }
 
 .icon {
