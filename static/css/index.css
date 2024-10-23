@@ -32,6 +32,7 @@
 }
 
 body {
+	--webkit-tap-highlight-color: transparent;
 	background-color: rgba(250, 248, 227, 1);
 	margin: auto;
 }
@@ -49,7 +50,9 @@ hr {
 	flex-direction: column;
 }
 
-@media (min-width: 1000px) {
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px) {
 	.header {
 		flex-direction: row;
 	}
@@ -58,22 +61,27 @@ hr {
 .general {
 	padding: 10px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	font-family: "Quicksand";
 	margin: auto;
-}
-
-@media (min-width: 1000px) {
-	.general {
-		flex-direction: row;
-	}
 }
 
 .info {
 	display: table-cell;
 	vertical-align: middle;
 	padding: 10px;
+}
+
+.basic {
+	display: flex;
+	flex-direction: row;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .name {
@@ -84,8 +92,19 @@ hr {
 .position {
 	font-size: 20px;
 	font-weight: bold;
-	margin-bottom: 10px;
 	color: rgba(0, 0, 0, 0.3);
+}
+
+.socials {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.socials img {
+	margin-right: 10px;
+	max-height: 30px;
 }
 
 .position-main {
@@ -110,10 +129,10 @@ hr {
 	padding: 10px;
 }
 
-.image {
+.photo img {
 	display: flex;
 	margin: auto;
-	max-height: 200px;
+	max-height: 100px;
 	border-radius: 20px;
 }
 
@@ -152,7 +171,9 @@ hr {
 	flex-direction: column;
 }
 
-@media (min-width: 1000px) {
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px) {
 	.company {
 		flex-direction: row;
 	}
@@ -240,7 +261,9 @@ hr {
 	font-weight: bold;
 }
 
-@media (min-width: 1000px) {
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px) {
 	.skills-content {
 		width: 30vw;
 		text-align: left;
